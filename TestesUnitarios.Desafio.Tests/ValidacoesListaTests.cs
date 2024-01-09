@@ -51,6 +51,7 @@ public class ValidacoesListaTests
     }
 
     //TODO: Corrigir a anotação [Fact]
+    [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
         //TODO: Implementar método de teste - OK
@@ -96,7 +97,8 @@ public class ValidacoesListaTests
         var resultado = _validacoes.RetornarMenorNumeroLista(lista);
 
         // Assert
-        //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
+        //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método - OK
+        
         Assert.Equal(resultadoEsperado, resultado);
     }
 }
