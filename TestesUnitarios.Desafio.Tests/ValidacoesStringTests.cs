@@ -31,7 +31,7 @@ public class ValidacoesStringTests
 
         //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act - OK
         // Act
-         string resultado = _validacoes.ContemCaractere(texto, textoProcurado);
+         bool resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
         //TODO: Corrigir o Assert.True com base no retorno da chamada ao método
@@ -62,7 +62,7 @@ public class ValidacoesStringTests
 
         // Arrange
         var texto = "Começo, meio e fim do texto procurado";
-        var textoProcurado = "teste";
+        var textoProcurado = "procurado";
 
         // Act
         var resultado = _validacoes.TextoTerminaCom(texto, textoProcurado);
