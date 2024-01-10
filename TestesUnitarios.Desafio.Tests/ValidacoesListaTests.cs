@@ -77,7 +77,7 @@ public class ValidacoesListaTests
         var resultadoEsperado = 9;
 
         // Act
-        var resultado = _validacoes.RetornarMaiorNumeroLista(lista)
+        var resultado = _validacoes.RetornarMaiorNumeroLista(lista);
         
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método - OK
